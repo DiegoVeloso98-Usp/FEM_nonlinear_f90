@@ -1,6 +1,9 @@
 # FEM_nonlinear_f90
 
-Non-Linear FEM code, written in fortran90. Based on the Positional Finite Element Method.
+Non-Linear FEM code, written in fortran90. Based on the Positional Finite Element Method. Theres 2 different codes, one for the static analysis and other for the dynamical analysis. 
+
+The static code also has the implementation of the Phase-Field method for fracture, with the Vol-Dev split.
+
 Solver SUPERLU, sparse matrix and OpenMP implementations.
 
 The code reads a 2D mesh in a specefic format.
